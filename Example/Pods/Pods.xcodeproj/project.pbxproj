@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B84B9F537FA026F49E53ABA46631EA /* Pods-SEAuthentication_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1A0FA135F33759DA116F6FFD9BE214 /* Pods-SEAuthentication_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322CF297CDCBEBE27B35911002B9285A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3BA38CBD30BB44B8224136145213C721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3C047B117A77EA7CC887025863FA2836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8104FB6FC5D5A2DA1B8775DC47A511A1 /* SEAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02431999A6B2112700CA81E66F96321C /* SEAuthentication-dummy.m */; };
+		B298A8570A010EE9606C76CFCA85CA5C /* Pods-SEAuthentication_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D4EBF620E075E527B45C00039B086 /* Pods-SEAuthentication_Example-dummy.m */; };
+		C4326EBE5C8A7F834CE46754569CAFA9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE7E7FC1B2150F4539371EAE247FE6 /* ReplaceMe.m */; };
+		DAB4EB4B324D401B73794D1F93EF5A28 /* SEAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6783A6C3159571D9190F86697DBC5D /* SEAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F449807C3ACCEF50D34034D08A17BF54 /* Pods-SEAuthentication_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 897E92BBB2B8EE1E22D110499F59E75A /* Pods-SEAuthentication_Tests-dummy.m */; };
+		FC925B5970490E10D8DF0CC39E89EA2D /* Pods-SEAuthentication_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3F71D9A006AB76E9CEEDCFADEEFE83 /* Pods-SEAuthentication_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF9A6334448C8BD73B1A645481EB23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AE85F660CC62A21EB7C072F4877A2C;
+			remoteInfo = SEAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02431999A6B2112700CA81E66F96321C /* SEAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SEAuthentication-dummy.m"; sourceTree = "<group>"; };
+		0A2C58506E22D2CE3E39D5A56809E8A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3F71D9A006AB76E9CEEDCFADEEFE83 /* Pods-SEAuthentication_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SEAuthentication_Example-umbrella.h"; sourceTree = "<group>"; };
+		1F6783A6C3159571D9190F86697DBC5D /* SEAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		2154BB5AC2655DC085EAB56936F2A9CF /* Pods-SEAuthentication_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SEAuthentication_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2812E3E0A4D49C29A95243C85C55BF3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28816CD2BEBAB85FA7DF237B1967E00E /* Pods-SEAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2AD029F4E7CDAC63A9973832385B2BA4 /* Pods-SEAuthentication_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SEAuthentication_Tests.modulemap"; sourceTree = "<group>"; };
+		2E92500AF5744A8B24AAD37E0A76255F /* Pods-SEAuthentication_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SEAuthentication_Example.modulemap"; sourceTree = "<group>"; };
+		36241939F78957B5E67AB9E184944BF2 /* SEAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SEAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		389CD1DFDBFA4E7A2D6A299F593C97C0 /* Pods-SEAuthentication_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SEAuthentication_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		394A5794959EF8D826ACAE9413EDB14E /* Pods-SEAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		415B00571840F0C0E542931190A53E85 /* Pods-SEAuthentication_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEAuthentication_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D2B4211ED25CB46112A8071D7C279C3 /* SEAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SEAuthentication-prefix.pch"; sourceTree = "<group>"; };
+		553C926C648F55C180F595920575E5D5 /* Pods-SEAuthentication_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEAuthentication_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C9D4EBF620E075E527B45C00039B086 /* Pods-SEAuthentication_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SEAuthentication_Example-dummy.m"; sourceTree = "<group>"; };
+		5D1A0FA135F33759DA116F6FFD9BE214 /* Pods-SEAuthentication_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SEAuthentication_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68F73147FCB9E6AC18A7F9927EFE2AEB /* Pods-SEAuthentication_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SEAuthentication_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F1D0F65C2649F9FDDE9F54E0FF97F0F /* Pods_SEAuthentication_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB9835E802127B6348E3200AD29817 /* Pods-SEAuthentication_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEAuthentication_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		897E92BBB2B8EE1E22D110499F59E75A /* Pods-SEAuthentication_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SEAuthentication_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A7ACA53C54EC63D07C2F88E1B10C84C /* Pods_SEAuthentication_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD612AD9E56B3FFBD4632DA1A1D780D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BE7E7FC1B2150F4539371EAE247FE6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A40D8CF2A5292892105D6443E795E36E /* Pods-SEAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC232BA6A00B490B5320E487CBDDF9F /* Pods-SEAuthentication_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEAuthentication_Example-resources.sh"; sourceTree = "<group>"; };
+		C22ACF20AD3ACA1CF584323BC28B8E59 /* Pods-SEAuthentication_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SEAuthentication_Tests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E66FF3685D0101F2A6E0B640D8D09F86 /* SEAuthentication.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SEAuthentication.xcconfig; sourceTree = "<group>"; };
+		EAD3D4E71B71D27F1CEC51983751F13D /* SEAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SEAuthentication.modulemap; sourceTree = "<group>"; };
+		FBA2C68F481C3301B3615939A1AF934B /* Pods-SEAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SEAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B5C96D06F0E86953504281F2F49C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C047B117A77EA7CC887025863FA2836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E74C5391416853C8EE50DD3AA8AA963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322CF297CDCBEBE27B35911002B9285A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97895B83E74C71AAED380BCAE714EBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA38CBD30BB44B8224136145213C721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228549906425E8677F5E09559D5F43A6 /* Pods-SEAuthentication_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C58506E22D2CE3E39D5A56809E8A5 /* Info.plist */,
+				2AD029F4E7CDAC63A9973832385B2BA4 /* Pods-SEAuthentication_Tests.modulemap */,
+				389CD1DFDBFA4E7A2D6A299F593C97C0 /* Pods-SEAuthentication_Tests-acknowledgements.markdown */,
+				415B00571840F0C0E542931190A53E85 /* Pods-SEAuthentication_Tests-acknowledgements.plist */,
+				897E92BBB2B8EE1E22D110499F59E75A /* Pods-SEAuthentication_Tests-dummy.m */,
+				82FB9835E802127B6348E3200AD29817 /* Pods-SEAuthentication_Tests-frameworks.sh */,
+				C22ACF20AD3ACA1CF584323BC28B8E59 /* Pods-SEAuthentication_Tests-resources.sh */,
+				5D1A0FA135F33759DA116F6FFD9BE214 /* Pods-SEAuthentication_Tests-umbrella.h */,
+				394A5794959EF8D826ACAE9413EDB14E /* Pods-SEAuthentication_Tests.debug.xcconfig */,
+				28816CD2BEBAB85FA7DF237B1967E00E /* Pods-SEAuthentication_Tests.release.xcconfig */,
+			);
+			name = "Pods-SEAuthentication_Tests";
+			path = "Target Support Files/Pods-SEAuthentication_Tests";
+			sourceTree = "<group>";
+		};
+		3AF03940976B4C5EBB22BA51FA8C2E9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99BE7E7FC1B2150F4539371EAE247FE6 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49A3AAD1055CFE17CC9C21C0F3B92970 /* Pods-SEAuthentication_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2812E3E0A4D49C29A95243C85C55BF3E /* Info.plist */,
+				2E92500AF5744A8B24AAD37E0A76255F /* Pods-SEAuthentication_Example.modulemap */,
+				2154BB5AC2655DC085EAB56936F2A9CF /* Pods-SEAuthentication_Example-acknowledgements.markdown */,
+				68F73147FCB9E6AC18A7F9927EFE2AEB /* Pods-SEAuthentication_Example-acknowledgements.plist */,
+				5C9D4EBF620E075E527B45C00039B086 /* Pods-SEAuthentication_Example-dummy.m */,
+				553C926C648F55C180F595920575E5D5 /* Pods-SEAuthentication_Example-frameworks.sh */,
+				ABC232BA6A00B490B5320E487CBDDF9F /* Pods-SEAuthentication_Example-resources.sh */,
+				0B3F71D9A006AB76E9CEEDCFADEEFE83 /* Pods-SEAuthentication_Example-umbrella.h */,
+				A40D8CF2A5292892105D6443E795E36E /* Pods-SEAuthentication_Example.debug.xcconfig */,
+				FBA2C68F481C3301B3615939A1AF934B /* Pods-SEAuthentication_Example.release.xcconfig */,
+			);
+			name = "Pods-SEAuthentication_Example";
+			path = "Target Support Files/Pods-SEAuthentication_Example";
+			sourceTree = "<group>";
+		};
+		4EB1CE5E751D99C44EC5F334D128CE61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AAD1055CFE17CC9C21C0F3B92970 /* Pods-SEAuthentication_Example */,
+				228549906425E8677F5E09559D5F43A6 /* Pods-SEAuthentication_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		622122D90F1098CC8DD1B921EF88BFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ACA53C54EC63D07C2F88E1B10C84C /* Pods_SEAuthentication_Example.framework */,
+				7F1D0F65C2649F9FDDE9F54E0FF97F0F /* Pods_SEAuthentication_Tests.framework */,
+				36241939F78957B5E67AB9E184944BF2 /* SEAuthentication.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		693F95E3384881313C88275D4AEA41D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD612AD9E56B3FFBD4632DA1A1D780D /* Info.plist */,
+				EAD3D4E71B71D27F1CEC51983751F13D /* SEAuthentication.modulemap */,
+				E66FF3685D0101F2A6E0B640D8D09F86 /* SEAuthentication.xcconfig */,
+				02431999A6B2112700CA81E66F96321C /* SEAuthentication-dummy.m */,
+				4D2B4211ED25CB46112A8071D7C279C3 /* SEAuthentication-prefix.pch */,
+				1F6783A6C3159571D9190F86697DBC5D /* SEAuthentication-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SEAuthentication";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E3DD51871895639D2E97071A26045792 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				622122D90F1098CC8DD1B921EF88BFE7 /* Products */,
+				4EB1CE5E751D99C44EC5F334D128CE61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F84ECBB260DAEF22A4937CE7D97427E /* SEAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				3AF03940976B4C5EBB22BA51FA8C2E9C /* Classes */,
+			);
+			path = SEAuthentication;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF98B799FFA567B9BE383395D4279425 /* SEAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				7F84ECBB260DAEF22A4937CE7D97427E /* SEAuthentication */,
+				693F95E3384881313C88275D4AEA41D8 /* Support Files */,
+			);
+			name = SEAuthentication;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3DD51871895639D2E97071A26045792 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF98B799FFA567B9BE383395D4279425 /* SEAuthentication */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01680B2A0990F979F04378706E117FCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC925B5970490E10D8DF0CC39E89EA2D /* Pods-SEAuthentication_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E5EB50FEBEC10AF54FA160F5BCE91C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B84B9F537FA026F49E53ABA46631EA /* Pods-SEAuthentication_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94454508FCE11169879BD158AF1432F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4EB4B324D401B73794D1F93EF5A28 /* SEAuthentication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B52A726E93CE8D9C50CA65E916E71FC /* Pods-SEAuthentication_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4798CE58CEF5E6D5BE7A11308E7521A /* Build configuration list for PBXNativeTarget "Pods-SEAuthentication_Tests" */;
+			buildPhases = (
+				43DFEEE112AD5E2B5570FC3435746956 /* Sources */,
+				97895B83E74C71AAED380BCAE714EBA6 /* Frameworks */,
+				12E5EB50FEBEC10AF54FA160F5BCE91C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SEAuthentication_Tests";
+			productName = "Pods-SEAuthentication_Tests";
+			productReference = 7F1D0F65C2649F9FDDE9F54E0FF97F0F /* Pods_SEAuthentication_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82AE85F660CC62A21EB7C072F4877A2C /* SEAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC546B1AD464CD82EE8CA0BF9C2E9C7 /* Build configuration list for PBXNativeTarget "SEAuthentication" */;
+			buildPhases = (
+				E5FB12934C14468D10A4A210E18D68F2 /* Sources */,
+				4E74C5391416853C8EE50DD3AA8AA963 /* Frameworks */,
+				F94454508FCE11169879BD158AF1432F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEAuthentication;
+			productName = SEAuthentication;
+			productReference = 36241939F78957B5E67AB9E184944BF2 /* SEAuthentication.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C2930C21E0A6BC4FFAC3910A98C8147 /* Pods-SEAuthentication_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198C6028C8115AE0A148D94E56AB0313 /* Build configuration list for PBXNativeTarget "Pods-SEAuthentication_Example" */;
+			buildPhases = (
+				573BF4E739F12715A51B602771CAFA81 /* Sources */,
+				14B5C96D06F0E86953504281F2F49C4F /* Frameworks */,
+				01680B2A0990F979F04378706E117FCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A19397DCEAD53E5ABC002A288E05926 /* PBXTargetDependency */,
+			);
+			name = "Pods-SEAuthentication_Example";
+			productName = "Pods-SEAuthentication_Example";
+			productReference = 8A7ACA53C54EC63D07C2F88E1B10C84C /* Pods_SEAuthentication_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 622122D90F1098CC8DD1B921EF88BFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2930C21E0A6BC4FFAC3910A98C8147 /* Pods-SEAuthentication_Example */,
+				0B52A726E93CE8D9C50CA65E916E71FC /* Pods-SEAuthentication_Tests */,
+				82AE85F660CC62A21EB7C072F4877A2C /* SEAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43DFEEE112AD5E2B5570FC3435746956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F449807C3ACCEF50D34034D08A17BF54 /* Pods-SEAuthentication_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573BF4E739F12715A51B602771CAFA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B298A8570A010EE9606C76CFCA85CA5C /* Pods-SEAuthentication_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FB12934C14468D10A4A210E18D68F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4326EBE5C8A7F834CE46754569CAFA9 /* ReplaceMe.m in Sources */,
+				8104FB6FC5D5A2DA1B8775DC47A511A1 /* SEAuthentication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A19397DCEAD53E5ABC002A288E05926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SEAuthentication;
+			target = 82AE85F660CC62A21EB7C072F4877A2C /* SEAuthentication */;
+			targetProxy = 3CF9A6334448C8BD73B1A645481EB23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD89217C97BA0345D147A8997F8BE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28816CD2BEBAB85FA7DF237B1967E00E /* Pods-SEAuthentication_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SEAuthentication_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEAuthentication_Tests/Pods-SEAuthentication_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SEAuthentication_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BE4E8AD988EC073E785C6D7AF0BFCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40D8CF2A5292892105D6443E795E36E /* Pods-SEAuthentication_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SEAuthentication_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEAuthentication_Example/Pods-SEAuthentication_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SEAuthentication_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51ADA0D6887804AF347263E149E1B9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66FF3685D0101F2A6E0B640D8D09F86 /* SEAuthentication.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SEAuthentication/SEAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SEAuthentication/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SEAuthentication/SEAuthentication.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SEAuthentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85F176CB6A7CA3E2D837DF5690D40730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394A5794959EF8D826ACAE9413EDB14E /* Pods-SEAuthentication_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SEAuthentication_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEAuthentication_Tests/Pods-SEAuthentication_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SEAuthentication_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8E47BC8C661731A616C85D1D5846A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA2C68F481C3301B3615939A1AF934B /* Pods-SEAuthentication_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SEAuthentication_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SEAuthentication_Example/Pods-SEAuthentication_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SEAuthentication_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2B3DF70E3A7F46416703A6635C49544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66FF3685D0101F2A6E0B640D8D09F86 /* SEAuthentication.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SEAuthentication/SEAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SEAuthentication/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SEAuthentication/SEAuthentication.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SEAuthentication;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198C6028C8115AE0A148D94E56AB0313 /* Build configuration list for PBXNativeTarget "Pods-SEAuthentication_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE4E8AD988EC073E785C6D7AF0BFCCA /* Debug */,
+				A8E47BC8C661731A616C85D1D5846A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC546B1AD464CD82EE8CA0BF9C2E9C7 /* Build configuration list for PBXNativeTarget "SEAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51ADA0D6887804AF347263E149E1B9AB /* Debug */,
+				F2B3DF70E3A7F46416703A6635C49544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4798CE58CEF5E6D5BE7A11308E7521A /* Build configuration list for PBXNativeTarget "Pods-SEAuthentication_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F176CB6A7CA3E2D837DF5690D40730 /* Debug */,
+				1DD89217C97BA0345D147A8997F8BE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

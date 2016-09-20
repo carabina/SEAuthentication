@@ -1,0 +1,22 @@
+{
+  "name": "SEAuthentication",
+  "version": "0.1.0",
+  "summary": "A short description of SEAuthentication.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SEAuthentication",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ramakrishna": "ramakrishna.talupula@mphasis.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SEAuthentication.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SEAuthentication/Classes/**/*"
+}

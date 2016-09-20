@@ -1,0 +1,16 @@
+PODS:
+  - SEAuthentication (0.1.0)
+
+DEPENDENCIES:
+  - SEAuthentication (from `../`)
+
+EXTERNAL SOURCES:
+  SEAuthentication:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SEAuthentication: 4011a0ee2dece2a5b686a0069877dfad47740932
+
+PODFILE CHECKSUM: 08766ea6176b7a22b666375b12254aed95fe7839
+
+COCOAPODS: 1.0.1
