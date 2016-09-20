@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SEAuthentication_Example' do
+  pod 'SEAuthentication', :path => '../'
+
+  target 'SEAuthentication_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
